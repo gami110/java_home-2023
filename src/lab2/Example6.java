@@ -1,7 +1,7 @@
 package lab2;
 
 class Ring implements Info {
-    private double diameter;
+    private final double diameter;
 
     public Ring(double diameter) {
         if (diameter >= 1) {
@@ -39,7 +39,7 @@ class Ring implements Info {
 }
 
 class Box implements Info {
-    private double a;
+    private final double a;
 
     public Box(double a) {
         this.a = a;
@@ -72,8 +72,8 @@ class Box implements Info {
 }
 
 class Triangle implements Info {
-    private double a;
-    private double h;
+    private final double  a;
+    private final double h;
 
 
     public Triangle(double a, double h) {
