@@ -1,6 +1,5 @@
 package lab2;
 
-
 class Person {
     private String name;
     private int age;
