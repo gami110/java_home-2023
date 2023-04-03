@@ -1,7 +1,7 @@
 package lab1;
 import java.util.Scanner;
 import java.time.LocalDate;
-public class example11 {
+public class Example11 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         LocalDate current_date = LocalDate.now();

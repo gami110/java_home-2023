@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-public class example1 {
+public class Example1 {
     public static void main(String[] args) {
         Scanner id = new Scanner(System.in);
         System.out.println("Введите размер массива");

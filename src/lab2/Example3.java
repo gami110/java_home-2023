@@ -2,7 +2,7 @@ package lab2;
 
 import java.util.Scanner;
 
-public class example3 {
+public class Example3 {
     public static void main(String[] args) {
         Scanner id = new Scanner(System.in);// Создание объекта класса Scanner
         // При запуске программы в консоль необходимо вывести сообщение: «Введите текст для шифрования»,

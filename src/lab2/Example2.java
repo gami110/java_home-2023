@@ -1,7 +1,7 @@
 package lab2;
 import java.util.Arrays;
 import java.util.Scanner;
-public class example2 {
+public class Example2 {
     public static void main(String[] args) {
         Scanner id = new Scanner(System.in);
         System.out.print("введите количество строк массива: ");
