@@ -1,5 +1,11 @@
 package lab2;
 
+interface BankAccount{
+    void writeOffMoneyFromAccount(double money);
+    void balance();
+    void setAmount(double deposit);
+
+}
 class Account implements BankAccount{
     private double amount;
     // Создание счета
@@ -18,25 +24,23 @@ class Account implements BankAccount{
             System.out.println("На вашем счете не достаточно средств");
         }
     }
-    // Метод получения информации о счете
+//     Метод получения информации о счете
 //    public double getAmount() {
 //        return amount;
 //    }
+
+
     public void balance(){
         System.out.println("На вашем счету осталось средств: " + amount);
     }
     // метод для вклада наличных для депозита
+    @Override
     public void setAmount(double deposit) {
         this.amount += deposit;
         System.out.println("Вы положили на счет: "+deposit);
     }
 }
-interface BankAccount{
-    void writeOffMoneyFromAccount(double money);
-    void balance();
-    void setAmount(double deposit);
 
-}
 public class Example7 {
     public static void main(String[] args) {
 //        Account account = new Account(5000);
