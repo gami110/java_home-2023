@@ -2,7 +2,7 @@ package timus;
 
 import java.util.Scanner;
 
-public class task_1020 {
+public class Task_1020 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
