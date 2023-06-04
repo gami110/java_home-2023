@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class task_1025 {
+public class Task_1025 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int n, n05, Ans = 0;
